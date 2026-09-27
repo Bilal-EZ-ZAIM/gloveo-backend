@@ -1,0 +1,5 @@
+2026-09-27 20:42:08.798 WARN  [http-nio-8080-exec-3] c.a.g.e.GlobalExceptionHandler - Validation failed: object=registerRequestDto, errors=1
+2026-09-27 22:30:22.870 WARN  [http-nio-8080-exec-6] c.a.g.e.GlobalExceptionHandler - Validation failed: object=registerRequestDto, errors=3
+2026-09-27 22:35:42.929 WARN  [http-nio-8080-exec-1] c.a.g.e.GlobalExceptionHandler - Endpoint not found: api/v1/auth
+2026-09-27 22:35:43.142 WARN  [http-nio-8080-exec-2] c.a.g.e.GlobalExceptionHandler - Endpoint not found: favicon.ico
+2026-09-27 22:35:44.412 WARN  [http-nio-8080-exec-3] c.a.g.e.GlobalExceptionHandler - Endpoint not found: api/v1/auth

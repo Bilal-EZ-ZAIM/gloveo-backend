@@ -1,0 +1,156 @@
+2026-09-26 17:11:19.714
+                INFO 
+                [restartedMain]
+                c.a.godeliver.GodeliverApplication
+                -
+                Starting GodeliverApplication using Java 25.0.4.1 with PID 57348 (C:\bilal\java\godeliver\godeliver\target\classes started by bezzaim in C:\bilal\java\godeliver\godeliver)
+2026-09-26 17:11:19.719
+                DEBUG
+                [restartedMain]
+                c.a.godeliver.GodeliverApplication
+                -
+                Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-09-26 17:11:19.720
+                INFO 
+                [restartedMain]
+                c.a.godeliver.GodeliverApplication
+                -
+                No active profile set, falling back to 1 default profile: "default"
+2026-09-26 17:11:19.783
+                INFO 
+                [restartedMain]
+                o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                -
+                Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-26 17:11:19.784
+                INFO 
+                [restartedMain]
+                o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                -
+                For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-26 17:11:20.080
+                INFO 
+                [background-preinit]
+                o.h.validator.internal.util.Version
+                -
+                HV000001: Hibernate Validator 9.1.3.Final
+2026-09-26 17:11:20.994
+                INFO 
+                [restartedMain]
+                o.s.boot.tomcat.TomcatWebServer
+                -
+                Tomcat initialized with port 8080 (http)
+2026-09-26 17:11:21.011
+                INFO 
+                [restartedMain]
+                o.a.coyote.http11.Http11NioProtocol
+                -
+                Initializing ProtocolHandler ["http-nio-8080"]
+2026-09-26 17:11:21.015
+                INFO 
+                [restartedMain]
+                o.a.catalina.core.StandardService
+                -
+                Starting service [Tomcat]
+2026-09-26 17:11:21.015
+                INFO 
+                [restartedMain]
+                o.a.catalina.core.StandardEngine
+                -
+                Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-26 17:11:21.073
+                INFO 
+                [restartedMain]
+                o.s.b.w.c.s.WebApplicationContextInitializer
+                -
+                Root WebApplicationContext: initialization completed in 1288 ms
+2026-09-26 17:11:21.609
+                INFO 
+                [restartedMain]
+                o.a.coyote.http11.Http11NioProtocol
+                -
+                Starting ProtocolHandler ["http-nio-8080"]
+2026-09-26 17:11:21.638
+                INFO 
+                [restartedMain]
+                o.s.boot.tomcat.TomcatWebServer
+                -
+                Tomcat started on port 8080 (http) with context path '/'
+2026-09-26 17:11:21.644
+                INFO 
+                [restartedMain]
+                c.a.godeliver.GodeliverApplication
+                -
+                Started GodeliverApplication in 2.722 seconds (process running for 3.339)
+2026-09-26 17:11:58.004
+                INFO 
+                [http-nio-8080-exec-1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]
+                -
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-26 17:11:58.004
+                INFO 
+                [http-nio-8080-exec-1]
+                o.s.web.servlet.DispatcherServlet
+                -
+                Initializing Servlet 'dispatcherServlet'
+2026-09-26 17:11:58.006
+                INFO 
+                [http-nio-8080-exec-1]
+                o.s.web.servlet.DispatcherServlet
+                -
+                Completed initialization in 1 ms
+2026-09-26 17:11:58.323
+                WARN 
+                [http-nio-8080-exec-1]
+                c.a.g.e.GlobalExceptionHandler
+                -
+                Validation failed for incoming request: object=registerRequestDto, errors=4
+2026-09-26 17:11:58.399
+                WARN 
+                [http-nio-8080-exec-1]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver
+                -
+                Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.aura.godeliver.Controller.AuthController.register(com.aura.godeliver.dto.RegisterRequestDto) with 4 errors: [Field error in object 'registerRequestDto' on field 'email': rejected value [null]; codes [NotBlank.registerRequestDto.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.email,email]; arguments []; default message [email]]; default message [Email is required]] [Field error in object 'registerRequestDto' on field 'password': rejected value [null]; codes [NotBlank.registerRequestDto.password,NotBlank.password,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.password,password]; arguments []; default message [password]]; default message [Password is required]] [Field error in object 'registerRequestDto' on field 'firstName': rejected value [null]; codes [NotBlank.registerRequestDto.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.firstName,firstName]; arguments []; default message [firstName]]; default message [First name is required]] [Field error in object 'registerRequestDto' on field 'lastName': rejected value [null]; codes [NotBlank.registerRequestDto.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.lastName,lastName]; arguments []; default message [lastName]]; default message [Last name is required]] ]
+2026-09-26 17:12:14.732
+                WARN 
+                [http-nio-8080-exec-2]
+                c.a.g.e.GlobalExceptionHandler
+                -
+                Validation failed for incoming request: object=registerRequestDto, errors=4
+2026-09-26 17:12:14.736
+                WARN 
+                [http-nio-8080-exec-2]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver
+                -
+                Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.aura.godeliver.Controller.AuthController.register(com.aura.godeliver.dto.RegisterRequestDto) with 4 errors: [Field error in object 'registerRequestDto' on field 'password': rejected value [null]; codes [NotBlank.registerRequestDto.password,NotBlank.password,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.password,password]; arguments []; default message [password]]; default message [Password is required]] [Field error in object 'registerRequestDto' on field 'firstName': rejected value [null]; codes [NotBlank.registerRequestDto.firstName,NotBlank.firstName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.firstName,firstName]; arguments []; default message [firstName]]; default message [First name is required]] [Field error in object 'registerRequestDto' on field 'email': rejected value [null]; codes [NotBlank.registerRequestDto.email,NotBlank.email,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.email,email]; arguments []; default message [email]]; default message [Email is required]] [Field error in object 'registerRequestDto' on field 'lastName': rejected value [null]; codes [NotBlank.registerRequestDto.lastName,NotBlank.lastName,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [registerRequestDto.lastName,lastName]; arguments []; default message [lastName]]; default message [Last name is required]] ]
+2026-09-26 17:14:20.462
+                INFO 
+                [File Watcher]
+                o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener
+                -
+                Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-09-26 17:14:20.470
+                INFO 
+                [Thread-1]
+                o.s.boot.tomcat.GracefulShutdown
+                -
+                Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-26 17:14:20.472
+                INFO 
+                [tomcat-shutdown]
+                o.a.coyote.http11.Http11NioProtocol
+                -
+                Pausing ProtocolHandler ["http-nio-8080"]
+2026-09-26 17:14:20.493
+                INFO 
+                [tomcat-shutdown]
+                o.s.boot.tomcat.GracefulShutdown
+                -
+                Graceful shutdown complete
+2026-09-26 17:14:20.494
+                INFO 
+                [Thread-1]
+                o.a.coyote.http11.Http11NioProtocol
+                -
+                Stopping ProtocolHandler ["http-nio-8080"]
